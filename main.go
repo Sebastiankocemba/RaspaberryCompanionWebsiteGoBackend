@@ -61,7 +61,7 @@ func dbFunc(db *sql.DB) gin.HandlerFunc {
 }
 
 func main() {
-	os.Setenv("PORT", "5432")
+	// os.Setenv("PORT", "5432")
 	port := os.Getenv("PORT")
 
 	if port == "" {
